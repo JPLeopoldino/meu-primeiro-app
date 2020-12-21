@@ -1,0 +1,26 @@
+{
+    "pessoas": [
+        {
+            "nome": "Kely",
+            "email": "kely@gmail.com",
+            "idade": 18
+        },
+        {
+            "nome": "Rodrigo",
+            "email": "rodrigo@gmail.com",
+            "idade": 18
+        },
+        {
+            "nome": "Gabriel",
+            "email": "gabriel@gmail.com",
+            "idade": 18
+        },
+        {
+            "nome": "Nailton",
+            "email": "nailton@gmail.com",
+            "idade": 18
+        }
+    ],
+    "local": "Senac",
+    "evento": "apresentação do projeto"
+}

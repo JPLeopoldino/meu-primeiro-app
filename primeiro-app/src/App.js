@@ -1,16 +1,24 @@
 import React from 'react';
 import Pessoa from './Pessoa';
+import Dados from "./pessoas.json";
+
+// stateless => componente funcional
+// stateful => componente baseado em classe
 
 function App() {
   return (
     <div className="App">
       <h1>Hello World!</h1>
       <ul>
-        <li><Pessoa nome="Kely" nrsorte="30" /></li>
-        <li><Pessoa nome="Nailto" nrsorte="7" /></li>
-        <li><Pessoa nome="Diogo" nrsorte="13" /></li>
-        <li><Pessoa nome="Daniel" nrsorte="11" /></li>
-        <li><Pessoa nome="Gabriel" nrsorte="10" /></li>
+        {
+          Dados.pessoas.map((p) => {
+            return(
+              <li>
+                <Pessoa dados={p} />
+              </li>
+            );
+          })
+        }
       </ul>
     </div>
   );
