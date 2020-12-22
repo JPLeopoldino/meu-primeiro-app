@@ -100,3 +100,17 @@ console.log("////////////////////////")
 resultado.forEach((r)=>{
     console.log(r)
 });
+
+// Spread Operator
+
+let arr = [1, 2, 3];
+let arr2 = [...arr];
+
+arr[1] = 8;
+arr[2] = 9;
+
+console.log(`Array 1: `);
+console.log(arr)
+
+console.log(`Array 2: `);
+console.log(arr2)
